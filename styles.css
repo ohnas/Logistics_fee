@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .out-fee_title {
@@ -28,3 +29,79 @@ body {
     text-decoration: none;
 }
 
+.out-fee_content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.out-fee_image img {
+    width: 200px;
+    height: 200px;
+}
+
+.out-fee_tabel {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.out-fee_tabel_row {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.out-fee_tabel_row_content {
+   background-color: #c6e2ff;
+   opacity: 0.8;
+   width: 100px;
+   height: 30px;
+   margin-right: 5px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+}
+
+.out-fee_tabel_row_content span {
+    font-size: 15px;
+}
+
+.out-fee_tabel_row1,
+.out-fee_tabel_row2,
+.out-fee_tabel_row3,
+.out-fee_tabel_row4,
+.out-fee_tabel_row5 {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.out-fee_tabel_row1_content,
+.out-fee_tabel_row2_content,
+.out-fee_tabel_row3_content,
+.out-fee_tabel_row4_content,
+.out-fee_tabel_row5_content {
+    background-color: #f0f8ff;
+    width: 100px;
+    height: 20px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.out-fee_tabel_row1_content span,
+.out-fee_tabel_row2_content span,
+.out-fee_tabel_row3_content span,
+.out-fee_tabel_row4_content span,
+.out-fee_tabel_row5_content span {
+    font-size: 10px;
+}
+
+#out-fee_tabel_row5_content_big {
+    background-color: #f0f8ff;
+    width: 205px;
+    height: 20px;
+    margin-right: 5px;
+}
